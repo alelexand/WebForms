@@ -1,25 +1,25 @@
 # WebForms
 
-Base reutilizável para construir telas de CRUD em **ASP.NET WebForms** usando o padrão **MVP (Model-View-Presenter)**.
+Reusable base for building CRUD screens in **ASP.NET WebForms** using the **MVP (Model-View-Presenter)** pattern.
 
-## O que tem aqui
+## What's inside
 
-| Arquivo | Papel |
+| File | Role |
 |---|---|
-| `BaseEntity.cs`, `BaseFilterEntity.cs` | Entidade base e filtro base para consultas |
-| `IBusiness.cs`, `BaseBusiness.cs` | Camada de regras de negócio genérica |
-| `IViewBase.cs`, `IViewEdicaoSimple.cs` | Contratos das telas (Views) |
-| `IPresenterBase.cs`, `PresenterBase.cs` | Presenter genérico que liga a View à regra de negócio |
-| `WebPageBase.cs` | Página base para as telas WebForms |
-| `ActionReturn.cs`, `EntityAction.cs`, `Operacao.cs`, `EventParam.cs` | Retorno de operações e eventos entre as camadas |
-| `PropertyCopy.cs`, `SaveInViewStateAttribute.cs` | Utilitários: cópia de propriedades e persistência no ViewState |
+| `BaseEntity.cs`, `BaseFilterEntity.cs` | Base entity and base filter for queries |
+| `IBusiness.cs`, `BaseBusiness.cs` | Generic business-rules layer |
+| `IViewBase.cs`, `IViewEdicaoSimple.cs` | Screen (View) contracts |
+| `IPresenterBase.cs`, `PresenterBase.cs` | Generic Presenter that connects the View to the business layer |
+| `WebPageBase.cs` | Base page for WebForms screens |
+| `ActionReturn.cs`, `EntityAction.cs`, `Operacao.cs`, `EventParam.cs` | Operation results and events passed between layers |
+| `PropertyCopy.cs`, `SaveInViewStateAttribute.cs` | Utilities: property copying and ViewState persistence |
 
-## Tecnologias
+## Tech stack
 
 - C# / .NET Framework 4.8
 - ASP.NET WebForms
 - Entity Framework 6
 
-## Como abrir
+## Getting started
 
-Abra `WebFormsCRUD.sln` no Visual Studio e restaure os pacotes NuGet.
+Open `WebFormsCRUD.sln` in Visual Studio and restore the NuGet packages.
